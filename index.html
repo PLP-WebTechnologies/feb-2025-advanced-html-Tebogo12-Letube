@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Example - South Africa</title>
+</head>
+<body>
+
+    <h2>Top 3 Tourist Attractions in South Africa</h2>
+    <ol type="I">
+        <li>Table Mountain</li>
+        <li>Kruger National Park</li>
+        <li>Robben Island</li>
+    </ol>
+
+    <h2>Table Mountain, Cape Town</h2>
+    <img src="https://images.pexels.com/photos/259772/pexels-photo-259772.jpeg" alt="Table Mountain, Cape Town" width="500">
+
+    <h2>South African Contacts</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Thabo Mbeki</td>
+                <td>123 Mandela St, Johannesburg</td>
+                <td>071-123-4567</td>
+                <td>thabo@example.com</td>
+            </tr>
+            <tr>
+                <td>Naledi Pandor</td>
+                <td>456 Tutu Ave, Pretoria</td>
+                <td>082-987-6543</td>
+                <td>naledi@example.com</td>
+            </tr>
+            <tr>
+                <td>Lerato Molefe</td>
+                <td>789 Sisulu Rd, Durban</td>
+                <td>061-555-1234</td>
+                <td>lerato@example.com</td>
+            </tr>
+            <tr>
+                <td>Kagiso Mokoena</td>
+                <td>101 Biko St, Cape Town</td>
+                <td>071-777-8888</td>
+                <td>kagiso@example.com</td>
+            </tr>
+            <tr>
+                <td>Zanele Dlamini</td>
+                <td>202 Tambo Blvd, Port Elizabeth</td>
+                <td>081-222-3333</td>
+                <td>zanele@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form action="/submit" method="post">
+        
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="province">Province:</label><br>
+        <select id="province" name="province" required>
+            <option value="">Select your province</option>
+            <option value="gauteng">Gauteng</option>
+            <option value="western-cape">Western Cape</option>
+            <option value="kzn">KwaZulu-Natal</option>
+            <option value="limpopo">Limpopo</option>
+            <option value="mpumalanga">Mpumalanga</option>
+        </select><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="safari" name="interests" value="safari">
+        <label for="safari">Resort</label><br>
+        <input type="checkbox" id="hiking" name="interests" value="hiking">
+        <label for="hiking">Hiking</label><br>
+        <input type="checkbox" id="beach" name="interests" value="beach">
+        <label for="beach">Beach</label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <h2>Multimedia</h2>
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <audio controls>
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
